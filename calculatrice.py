@@ -7,6 +7,7 @@ class calculatrice:
         self.root.geometry("320x450")
         self.root.configure(bg="#1E1E24") 
         self.root.resizable(False, False)
+        self.root.iconbitmap("elprimero.ico")
 
         self.expression = ""
 
